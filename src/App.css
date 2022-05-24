@@ -1,0 +1,69 @@
+.main{
+    border:2px solid;
+    width:100%;
+    height:100vh;
+    margin:10px auto;
+}
+.image{
+    width:70%;
+    height:100%;
+}
+.pages {
+    /* margin: 10px 10px 10px 10px;
+    border: 2px solid rgb(255, 251, 0);
+    position: relative; */
+    width: 450px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 150px; 
+  }
+  .codexbox1{
+    width: 50%;
+  }
+  .codexbox2{
+    position: absolute;
+    right: 270px;
+    top: 70px;
+    height: 90px;
+    width: 300px;
+  }
+  .text1{
+    margin-bottom: 20px;
+  }
+  .text2{
+  display: inline;
+ }
+ h6{
+  
+   font-weight: normal;
+ }
+ span{
+   color: #3FA8E4;
+ }
+ .btn1{
+  background-color: #3FA8E4;
+   padding: 5px 25px 5px 25px;
+   height: 40px;
+   border-radius: 5px;
+   border: none;
+   color: aliceblue;
+ }
+ span{
+   padding-left: 230px ;
+ }
+ 
+ .keka{
+   height: 35px;
+   margin-top: 50px;
+  
+ }
+ .google-play{
+   width: 150px;
+   margin-top: 53px;
+   padding-left: 20px;
+ }
+ .app-store{
+   width: 150px;
+   margin-top: 53px;
+ }
+ 
