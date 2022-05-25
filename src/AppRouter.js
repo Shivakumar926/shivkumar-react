@@ -1,18 +1,18 @@
 import React from "react";
-import { BrowserRouter, Route, Router } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import ForgotPassword from "./components/ForgetPassword/ForgetPassword";
+import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
 import Login from "./components/Login/Login";
 
 
 const AppRouter = ()=>{
     return(
       <BrowserRouter>
-      <Router>
-          <Route path="/App" element={<App/>}/>
-          <Router path="/Login" element={<Login/>}/>
-          <Router path="/ForgotPassword" element={<ForgotPassword/>}/>
-      </Router>
+      <Routes>
+          <Route path="/" element={<App/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/ForgetPassword" element={<ForgetPassword/>}/>
+      </Routes>
       </BrowserRouter>
 
     );

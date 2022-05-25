@@ -1,20 +1,20 @@
 import React from 'react';
 
-function ForgotPassword (){
+function ForgetPassword (){
 return(
 <div className="App">
     <main>
         <img src="logo1.png" alt="codexbox-Q-logo" className="codexbox1"></img>
         <div className="pages">
             <div className="App">
-                <img src="" alt="codexbox-logo" className="codexbox"></img>
+                <img src="logo2.jpg" alt="codexbox-logo" className="codexbox"></img>
                 <h6>Forget Password?</h6>
                 <form>
-                    {/* <div className="mb-3 page ">
+                    <div className="mb-3 page ">
                     
                     <input type="email" className="form-control text1" id="exampleInputEmail1"
                                 placeholder="codexbox                                                                 .keka.com "/>
-                    </div> */}
+                    </div>
 
                     <div>
                         <button type="submit" className="btn1">Reset</button>
@@ -40,4 +40,4 @@ return(
 
 );
 }
-export default ForgotPassword;
+export default ForgetPassword;
