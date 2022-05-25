@@ -1,24 +1,23 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from  'react';
 
-function App() {
+function Login (){
+    return(
 
-  return (
-    <div className='App'>  
+<div className='App'>  
       <main>
-      <img src="logo1.png" alt="codexbox-Q-logo" className="codexbox1"/>
+      <img src="logo1.png" alt="codexbox-Q-logo" className="codexbox1"></img>
       <div className="pages">
       <div className="App">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3HPopyhNNH-gPr4qcUDny4Y-4RK0OfT1pRz5GHy8ZzQ&s.png" alt="codexbox-logo" className="codexbox"></img>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3HPopyhNNH-gPr4qcUDny4Y-4RK0OfT1pRz5GHy8ZzQ&s" alt="codexbox-logo" className="codexbox"></img>
         <h6>Please enter your username or work email address</h6>
         <form>
           <div className="mb-3 page ">
             <div>
             
-              <input type="email" className="form-control text1" id="exampleInputEmail1" placeholder="codexbox                                                                 .keka.com " /> 
+              {/* <input type="email" className="form-control text1" id="exampleInputEmail1" placeholder="codexbox                                                                 .keka.com " />  */}
               {/* <input type="text" className="form-control text2" id="exampleInputEmail1" placeholder=".keka.com" /> */}
             </div>
-            <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email id" />
+            {/* <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email id" /> */}
 
           </div>
           <div className="mb-3">
@@ -44,8 +43,6 @@ function App() {
       </div>
     </main>
     </div>
-
-  );
+    );
 }
-
-export default App;
+export default Login;
