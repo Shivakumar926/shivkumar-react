@@ -10,10 +10,8 @@ return(
                 <img src="logo2.jpg" alt="codexbox-logo" className="codexbox"></img>
                 <h6>Forget Password?</h6>
                 <form>
-                    <div className="mb-3 page ">
-                    
-                    <input type="email" className="form-control text1" id="exampleInputEmail1"
-                                placeholder="codexbox                                                                 .keka.com "/>
+                    <div className="mb-3 page">
+                 
                     </div>
 
                     <div>

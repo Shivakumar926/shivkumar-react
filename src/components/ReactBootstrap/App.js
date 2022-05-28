@@ -6,16 +6,16 @@ function App() {
   return (
     <div className='App'>  
       <main>
-      <img src="logo1.png" alt="codexbox-Q-logo" className="codexbox1"/>
+      <img src="logo1.png" alt="codexbox-Q-logo" className="codexbox1"></img>
       <div className="pages">
       <div className="App">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3HPopyhNNH-gPr4qcUDny4Y-4RK0OfT1pRz5GHy8ZzQ&s.png" alt="codexbox-logo" className="codexbox"></img>
+        <img src="logo2.jpg" alt="codexbox-logo" className="codexbox"></img>
         <h6>Please enter your username or work email address</h6>
         <form>
           <div className="mb-3 page ">
             <div>
             
-              <input type="email" className="form-control text1" id="exampleInputEmail1" placeholder="codexbox                                                                 .keka.com " /> 
+              <input type="email" className="form-control text1" id="exampleInputEmail1" placeholder="codexbox.                                                                keka.com"/> 
               {/* <input type="text" className="form-control text2" id="exampleInputEmail1" placeholder=".keka.com" /> */}
             </div>
             <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email id" />
@@ -23,10 +23,10 @@ function App() {
           </div>
           <div className="mb-3">
 
-            <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Password' />
+            <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Password'/>
           </div>
           <div className="mb-3 form-check">
-            
+          
           </div>
           <div>
           <button type="submit" className="btn1">Login</button>
@@ -49,3 +49,4 @@ function App() {
 }
 
 export default App;
+
