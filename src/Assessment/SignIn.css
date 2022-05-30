@@ -1,0 +1,65 @@
+.thead{
+    text-align: center;
+}
+.me-auto{
+    position: relative;
+    left: 400px;
+    font-size: large;
+}
+.logo1{
+    border-radius: 50%;
+}
+.logo2{
+    border-radius: 50%;
+}
+.dashboard{
+    margin-left: 200px;
+}
+
+.profile{
+    position: relative;
+    top: 30px;
+}
+.smalltable{
+    position: relative;
+    top: 40px;
+    font-size: medium;
+}
+
+.upload{
+    position: relative;
+    top: 80px;
+    font-size: medium;
+}
+.documents{
+    position: relative;
+    top: 80px;
+    font-size: medium;
+}
+
+.shiva{
+    width: 400px;
+}
+
+.button1{
+    width: 140px;
+    background-color: #1A7E36;
+    position: relative;
+    top: 60px;
+}
+.button2{
+    width: 120px;
+    color: #d9efdf;
+    position: relative;
+    top: 100px;
+}
+
+.tdesign{
+margin-top: 80px;
+padding: 30px;
+font-size: 12px;
+width: 20px;
+
+}
+
+
